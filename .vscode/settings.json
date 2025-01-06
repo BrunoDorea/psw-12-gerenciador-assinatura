@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "${workspaceFolder}/venv/Scripts/python.exe",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell - venv": {
+            "path": "c:\\windows\\system32\\windowspowershell\\v1.0\\powershell.exe",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "& { . ${workspaceFolder}\\venv\\Scripts\\Activate.ps1 }"
+            ]
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell - venv"
+}
